@@ -44,41 +44,12 @@
             <div class="main wrapper clearfix">
 
                 <article>
-                    <header>
-                        <h1>What Is Data Autonomy?</h1>
-                        <p>
-                            Data is one of the most valuable commodities of our time.
-                            It is time that we claim back control about our personal
-                            data.
-                        </p>
-                        <p>
-                            The following three powers must be guaranteed to give us
-                            Data Autonomy.
-                        </p>
-                    </header>
-                    <section>
-                        <h2>💡&nbsp;Knowledge</h2>
-                        <p>We must what data exists about us.</p>
-                    </section>
-                    <section>
-                        <h2>🔑&nbsp;Access</h2>
-                        <p>We must be able to access our data.</p>
-                    </section>
-                    <section>
-                        <h2>🔒&nbsp;Control</h2>
-                        <p>We must be able to decide who gets access to our data.</p>
-                    </section>
-                    <section>
-                        <h2>What We Do</h2>
-                        <ul>
-                            <li>We lobby for Data Autonomy</li>
-                            <li>We check the policies of Data Providers and assign them Data Autonomy scores</li>
-                            <li>We support projects that help you achieve Data Autonomy</li>
-                        </ul>
-                    </section>
+                  {% block body %}
+                  {% endblock %}
                 </article>
 
                 <aside>
+                  {% block sidebox %}
                     <img src="img/logo.png" alt="Data Autonomy Logo">
                     <h2>Act Now!</h2>
                     <dl>
@@ -92,12 +63,16 @@
                             Take the Data Autonomy Pledge
                         </dt>
                         <dd>
-                            
+
                         </dd>
                         <dt>
                             The Data Autonomy Audit
                         </dt>
+                        <dd>
+
+                        </dd>
                     </dl>
+                  {% endblock %}
                 </aside>
 
             </div> <!-- #main -->
